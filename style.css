@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.overlay{
+    position:absolute;
+    z-index: 1;
+    top: 50%;
+    left: 20%;
+
+}
+p{
+    font-weight: bolder;
+    font-size:large;
+}
+
+h1{
+    font-weight: 900;
+    font-style:normal;
+    font-size: larger;
+ letter-spacing: 1px;    
+}
+.p0{
+    font-weight: lighter;
+}
+
+.txt{
+    color: #fff;
+    font-size: xx-large;
+    margin: top 10%;
+    padding-top: 50px;
+    font-weight: 900;
+    text-shadow: 4px 2px 20px #000 ;
+}
+.container{
+    background-color: #fff;
+    height: 250px;
+    margin-top: 70px;
+}
+b{
+    font-weight: 600;
+}
+
+
+h2{
+    margin-left: 100px;
+}
+.box{
+    height: 125px;
+    width: 100%;
+    display: flex;
+    background-color:#ebb956;
+    justify-content: center;
+    
+}
+.container2{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+
+}
+.row{
+    display: flex;
+}
+.btn:hover{
+   box-shadow:2px 4px 20px hsl(0, 23%, 97%);
+}
+.btn:hover{
+    background-color: aqua;
+
+}
+.poo{
+    color: #fff;
+    margin-top: 70px;
+    margin-left:
+    }
+
+       
+
+.no{
+    color: rgb(250, 215, 61);
+    margin-top: 20px;
+    font-size: 600%;
+}
+.yes{
+    margin-top :-65px;
+
+}
+
+
+       /* footer */
+
+.footer{
+    margin-top:100px;  
+    display: flex;
+    margin-left:13%;
+    margin-bottom: 50px;
+}
+.rights{
+    justify-content: center;
+    display: flex;
+    margin-left:20%;
+    color: darkgray; 
+    font-size: 30px;
+    font-weight: lighter;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+}
+.icons{
+    margin-left:13%;
+    font-size: 40px;
+
+}
+
+
+
+
+
+.image-container{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 3px;
+}
+.overlay1 p{
+    position: relative;
+    top: 200px;
+    right: 50px;
+}
+.overlay1 a{
+    position: relative;
+    left: 225px;
+    bottom: 190px;
+}
+.variants img:hover{
+    opacity: 1;
+    padding: 10px;
+}
+
+
+.variants {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.image-container {
+    position: relative;
+    object-fit:cover;
+    width: 340px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 330px;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+.image-container:hover .overlay1 {
+    opacity:1 ;
+   
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button i {
+    margin-right: 5px;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col2{
+    justify-content: center;
+}
+.card:hover{
+   transform:scale(1.1);
+    transition: 0.5s;
+
+}
+.btn1{
+    position:absolute;
+    margin: 10px;
+   background-color:#f4c76e;
+   padding: 3px;
+   color: #000;
+   border: #ebb956;
+}
+.card{
+    box-shadow: 2px 4px 20px #000;
+}
+  
+.box1{
+    background-color: #ebb956;
+    color: #fff;
+    margin: 10px;
+    height: 160px;
+    width: 100%;
+    display:block;
+
+}
+.my{
+    margin: 20px;
+    padding: 10px;
+    margin-left: 10%;
+    padding-top: 40PX;
+}
+.zero{
+    font-size: 200%;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    font-family: "Merriweather", serif;
+}
+.btn2{
+    border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  padding:10px 20px;
+  bottom: 85px;
+  left: 80%;
+  position: relative;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  }
+  .btn2:hover{
+    box-shadow:2px 4px 20px #000;
+    background-color:rgb(42, 124, 239) ;
+  }
+  text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .image-container:hover .overlay1 {
+    background-color: #616161;
+    opacity:0.5;
+  }
+  .overlay1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .buuton3{
+    font-size: 2em;
+
+  }.caption {
+    margin-top: 10px;
+  }
+  /* Container holding the image and the text */
+.contain{
+    background: rgb(250, 200, 101);
+}
+.cont {
+    position: relative;
+    
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+  
+  /* Top left text */
+  .top-left {
+    text-align: left;
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    font-size: 45px;
+    font-weight: bolder;
+  }
+  
+  /* Top right text */
+  .btn {
+    position: absolute;
+    top: 52%;
+    left: 10%;
+  }
+  .bt10{
+    background-color: blanchedalmond;
+    left: 10px;
+    top: 5px;
+  }
+  
+ /* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(250, 200, 101);
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  border: px solid black;
+  color: #000000;
+  background: #ebb956;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+/* .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #ebb956;
+  color: white;
+}
+.learn{
+    text-decoration: none;
+    
+}
+.learn1{
+    color: #ebb956;
+    text-decoration: none;
+    padding-left: -10px;
+}
+.shy{
+    font-family: "Merriweather", serif;
+    font-size: 270%;
+}
+.two{
+    font-family: "Merriweather", serif;
+    font-size: 270%;
+
+}
+.big{
+    margin-top: 70px;
+    margin-bottom: -30px;
+    font-style: italic;
+
+}
+.three{
+     color: #616161;
+}
+.topnav{
+    position: sticky;
+    top: 0;
+}
+.four{
+    position: sticky;
+}
+.down{
+    position: sticky;
+}
+.row1{
+    margin-left: 8%;
+}
+.col-3{
+    padding-left: 4%;
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
